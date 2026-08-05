@@ -22,7 +22,6 @@
 - [Project Structure](#project-structure)
 - [Approach](#approach)
 - [Results](#results)
-- [Screenshots](#screenshots)
 - [Installation / How to Run](#installation--how-to-run)
 - [Future Improvements](#future-improvements)
 - [Author](#author)
