@@ -112,12 +112,6 @@ cd Rice-Leaf-Disease-Detection
 pip install -r requirements.txt
 ```
 
-Or install directly:
-
-```bash
-pip install tensorflow scikit-learn numpy pandas matplotlib pillow jupyter
-```
-
 ### Dataset setup
 
 Download the dataset and place it in the project root (see [Dataset](#dataset) above), then launch the notebook.
