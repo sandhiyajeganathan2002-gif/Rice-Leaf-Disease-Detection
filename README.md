@@ -70,13 +70,14 @@ data/
 
 ## Project Structure
 
-```
+``` 
 Rice-Leaf-Disease-Detection/
 ├── .gitignore
 ├── LICENSE
-rice_leaf_disease_detection.ipynb
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── 
+rice_leaf_disease_detection.ipynb
 ```
 
 ## Approach
