@@ -169,14 +169,21 @@ To predict on your own image, swap in your file path where the notebook loads `r
 
 - **Language:** Python
 - **Deep Learning:** TensorFlow / Keras
-- **Model Architecture:** EfficientNetB0 (ImageNet-pretrained, fine-tuned) — with MobileNetV2 as a comparison baseline
-- **Supporting Libraries:** scikit-learn, NumPy, Pandas, Matplotlib, Pillow
+- **Model Architecture:** EfficientNetB0 (ImageNet-pretrained, fine-tuned)  with MobileNetV2 as a comparison baseline
+- **Supporting Libraries:** scikit-learn, NumPy, Pandas, Matplotlib, 
 - **Environment:** Jupyter Notebook
 
-## Author
+## 👤 Author
 
 **Sandhiya Jeganathan**
-Data Scientist / AI-ML Engineer
+
+Open to **Data science Intern**/**Junior Data Scientist** / **AI-ML Engineer**/  roles
+
+📍 Bengaluru, India
+
+- 🔗 LinkedIn: https://www.linkedin.com/in/sandhiyajegan
+- 📧 Email: sandhiyajeganathan2002@gmail.com
+- 💻 GitHub: https://github.com/sandhiyajeganathan2002-gif
 
 ---
 
