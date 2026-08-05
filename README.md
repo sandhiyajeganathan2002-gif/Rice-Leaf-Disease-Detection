@@ -54,6 +54,29 @@ To reproduce this project, download the dataset from:
 [PRCP-1001-RiceLeaf.zip](https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1001-RiceLeaf.zip)
 
 ```
+PRCP-1001-RiceLeaf/
+│
+├── DATA/
+│   ├── Bacterial leaf blight/
+│   │   └── Bacterial leaf blight/
+│   │       ├── image1.jpg
+│   │       ├── image2.jpg
+│   │       └── ...
+│   │
+│   ├── Brown spot/
+│   │   └── Brown spot/
+│   │       ├── image1.jpg
+│   │       ├── image2.jpg
+│   │       └── ...
+│   │
+│   └── Leaf smut/
+│       └── Leaf smut/
+│           ├── image1.jpg
+│           ├── image2.jpg
+│           └── ...
+
+```
+
 data/
 ├── Bacterial leaf blight/
 ├── Brown spot/
