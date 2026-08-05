@@ -76,12 +76,6 @@ PRCP-1001-RiceLeaf/
 │           └── ...
 
 ```
-```
-data/
-├── Bacterial leaf blight/
-├── Brown spot/
-└── Leaf smut/
-```
 
 ## Tech Stack
 
