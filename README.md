@@ -67,12 +67,18 @@ data/
 - **Supporting Libraries:** scikit-learn, NumPy, Pandas, Matplotlib, Pillow
 - **Environment:** Jupyter Notebook
 
-## Project Structure
+## 📂 Project Structure
+
+```text
 Rice-Leaf-Disease-Detection/
-├── rice_leaf_disease_detection.ipynb 
-├── data/ 
+│
+├── data/
+│   └── Rice Leaf Disease Images/
+├── rice_leaf_disease_detection.ipynb
+├── requirements.txt
 ├── README.md
-└── requirements.txt
+└── LICENSE
+
 ## Approach
 
 1. **Exploratory Data Analysis** — checked class distribution, image sizes/modes, and viewed sample images per class given the small dataset size.
