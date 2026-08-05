@@ -53,7 +53,6 @@ Traditionally, rice leaf disease diagnosis depends on farmers or agronomists vis
 To reproduce this project, download the dataset from:
 [PRCP-1001-RiceLeaf.zip](https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1001-RiceLeaf.zip)
 
-The notebook itself handles unzipping and flattening nested folders if you start from the raw archive — see the `PRCP-1001-RiceLeaf.zip` handling in the first few cells. Once processed, the data is organized as:
 data/
 ├── Bacterial leaf blight/
 ├── Brown spot/
@@ -64,20 +63,17 @@ data/
 - **Language:** Python
 - **Deep Learning:** TensorFlow / Keras
 - **Model Architecture:** EfficientNetB0 (ImageNet-pretrained, fine-tuned) — with MobileNetV2 as a comparison baseline
-- **Supporting Libraries:** scikit-learn, NumPy, Pandas, Matplotlib, Pillow
+- **Supporting Libraries:** scikit-learn, NumPy, Pandas, Matplotlib
 - **Environment:** Jupyter Notebook
 
-## 📂 Project Structure
+## Project Structure
 
-```text
+The notebook itself handles unzipping and flattening nested folders if you start from the raw archive — see the `PRCP-1001-RiceLeaf.zip` handling in the first few cells. Once processed, the data is organized as:
 Rice-Leaf-Disease-Detection/
-│
-├── data/
-│   └── Rice Leaf Disease Images/
-├── rice_leaf_disease_detection.ipynb
-├── requirements.txt
+├── rice_leaf_disease_detection.ipynb # Main notebook: EDA → training → evaluation
+├── data/ # Dataset (not included, see above)
 ├── README.md
-└── LICENSE
+└── requirements.txt
 
 ## Approach
 
@@ -157,12 +153,12 @@ jupyter notebook rice_leaf_disease_detection.ipynb
 ```
 
 Run the cells in order. The notebook will:
-1. Unzip and organize the dataset.
-2. Run EDA and show sample images per class.
-3. Train the MobileNetV2 baseline and the EfficientNetB0 final model.
-4. Run 5-fold cross-validation.
-5. Print classification reports and confusion matrices.
-6. Predict the disease class for a single test image (`rice_image.jfif`) as a usage example.
+1. Unzip and organize the dataset
+2. Run EDA and show sample images per class
+3. Train the MobileNetV2 baseline and the EfficientNetB0 final model
+4. Run 5-fold cross-validation
+5. Print classification reports and confusion matrices
+6. Predict the disease class for a single test image (`rice_image.jfif`) as a usage example
 
 To predict on your own image, swap in your file path where the notebook loads `rice_image.jfif` before calling `.predict()`.
 
