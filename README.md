@@ -48,7 +48,7 @@ Traditionally, rice leaf disease diagnosis depends on farmers or agronomists vis
 | **Brown Spot** | Fungal disease | Small, brown, oval-shaped lesions | ~40 |
 | **Leaf Smut** | Fungal disease | Small black spots scattered across the leaf surface | ~39 |
 
-> **Note:** The dataset is not included in this repository to keep it lightweight.
+> **Note:** The dataset is not included in this repository due to its size. It can be downloaded from the link provided below.
 
 To reproduce this project, download the dataset from:
 [PRCP-1001-RiceLeaf.zip](https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1001-RiceLeaf.zip)
@@ -72,8 +72,9 @@ data/
 
 ```
 Rice-Leaf-Disease-Detection/
-├── rice_leaf_disease_detection.ipynb   # Main notebook: EDA → training → evaluation
-├── data/                                # Dataset 
+├── .gitignore
+├── LICENSE
+rice_leaf_disease_detection.ipynb
 ├── README.md
 └── requirements.txt
 ```
