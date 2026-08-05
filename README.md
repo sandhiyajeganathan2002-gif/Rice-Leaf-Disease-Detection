@@ -53,10 +53,12 @@ Traditionally, rice leaf disease diagnosis depends on farmers or agronomists vis
 To reproduce this project, download the dataset from:
 [PRCP-1001-RiceLeaf.zip](https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1001-RiceLeaf.zip)
 
+```
 data/
 ├── Bacterial leaf blight/
 ├── Brown spot/
 └── Leaf smut/
+```
 
 ## Tech Stack
 
@@ -68,12 +70,13 @@ data/
 
 ## Project Structure
 
-The notebook itself handles unzipping and flattening nested folders if you start from the raw archive — see the `PRCP-1001-RiceLeaf.zip` handling in the first few cells. Once processed, the data is organized as:
+```
 Rice-Leaf-Disease-Detection/
-├── rice_leaf_disease_detection.ipynb # Main notebook: EDA → training → evaluation
-├── data/ # Dataset (not included, see above)
+├── rice_leaf_disease_detection.ipynb   # Main notebook: EDA → training → evaluation
+├── data/                                # Dataset 
 ├── README.md
 └── requirements.txt
+```
 
 ## Approach
 
